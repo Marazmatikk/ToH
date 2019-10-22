@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d392b4c01b39f45a8e954e4bfa02dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  punchDistance: 1.5
+  punchDistance: 1.25
 --- !u!114 &114832104129274986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -360,8 +360,6 @@ MonoBehaviour:
   element: {fileID: 1929854409509452, guid: 8ca618d608462964da5bf60225e34ab7, type: 2}
   punchDamage: 10
   timeAttackKD: 0
-  earnedPoints: {fileID: 1899648726600502, guid: a3c0f5255ae7af64d8fd1bf966077620,
-    type: 2}
   typeElement: 1
 --- !u!114 &114911933267003858
 MonoBehaviour:
