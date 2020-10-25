@@ -63,7 +63,7 @@ public class MenuController : MonoBehaviour
                 animatorPlayer.SetInteger("State", 2);
                 myRigidbody.AddForce(Vector3.up * (jumpPower * myRigidbody.mass * myRigidbody.gravityScale));
                 countJump++;
-                Instantiate(preloadFrame, Vector3.zero, Quaternion.identity, canvas.transform);
+                Instantiate(preloadFrame, canvas.transform);
             }
         }
     }

@@ -19,8 +19,11 @@ public class UIController : MonoBehaviour
     [SerializeField] private Text textHP;
     [SerializeField] private Text textMP;
     private Button earth_Btn;
-    private GameObject curWindow;
-    [Header("Префаб окна поражения")][SerializeField] private GameObject gameOverPanel;
+    GameObject curWindow;
+    
+    [Header("Префаб окна поражения")]
+    [SerializeField] GameOverFrame gameOverPanel;
+    
     public Text scoreText;
     //3 надписи с панели поражения
     [HideInInspector]
@@ -44,10 +47,11 @@ public class UIController : MonoBehaviour
     public void LoseFrame()
     {
         SoundData.instance.NormalToSilence();
-        curWindow = Instantiate(gameOverPanel, Vector3.zero, Quaternion.identity, canvas.transform);
-        curWindow.GetComponent<GameOverFrame>().canvas = canvas;
-        currentScoreText = curWindow.transform.Find("Frame/ScorePoints").GetComponent<Text>();
-        bestScoreText = curWindow.transform.Find("Frame/Text_BestScore").GetComponent<Text>();
+        var losePopup = Instantiate(gameOverPanel, canvas.transform);
+        curWindow             = losePopup.gameObject;
+        losePopup.canvas      = canvas;
+        currentScoreText      = curWindow.transform.Find("Frame/ScorePoints").GetComponent<Text>();
+        bestScoreText         = curWindow.transform.Find("Frame/Text_BestScore").GetComponent<Text>();
         currentScoreText.text = "Score: " + Mathf.FloorToInt(GameData.score);
         if(GameData.score > PlayerPrefs.GetInt("Best", 0))
         {
@@ -65,8 +69,8 @@ public class UIController : MonoBehaviour
 
     public void UpdateHPBar(float HP, bool heal)
     {
-        if(heal) Instantiate(healFrame, Vector3.zero, Quaternion.identity, canvas.transform);
-        else Instantiate(damageFrame, Vector3.zero, Quaternion.identity, canvas.transform);
+        if(heal) Instantiate(healFrame, canvas.transform);
+        else Instantiate(damageFrame, canvas.transform);
         PlayerHPBar.fillAmount = HP / 100;
         textHP.text = HP + "%";
     }
@@ -102,7 +106,7 @@ public class UIController : MonoBehaviour
     public void Pause()
     {
         SoundController.instance.ClickBtnSound();
-        curWindow = Instantiate(pauseMenu, Vector3.zero, Quaternion.identity, canvas.transform);
+        curWindow = Instantiate(pauseMenu, canvas.transform);
         PauseMenu script = curWindow.GetComponent<PauseMenu>();
         script.canvas = canvas;
         script.deathAreas = deathAreas;

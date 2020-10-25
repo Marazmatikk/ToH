@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOverFrame : MonoBehaviour
 {
     [SerializeField] private GameObject loadFrame;
+    
     [HideInInspector] public Canvas canvas;
 
     public void Restart()

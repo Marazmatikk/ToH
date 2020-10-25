@@ -9,8 +9,8 @@ public class EarthEnemy : Enemy
         if (CountCharges > 0)
         {
             Instantiate(element, transform.position + Vector3.left + Vector3.forward * 0.1f, Quaternion.identity, transform);
+            animator.SetTrigger("Raise");
             animator.SetTrigger("Attack");
-            animator.SetTrigger("Idle");
             CountCharges--;
         }
     }

@@ -41,7 +41,6 @@ public class Enemy : MonoBehaviour
             elem = Instantiate(element, transform.position + Vector3.left * 0.8f + Vector3.up, Quaternion.identity, transform);
             elem.GetComponent<Fire>().master = Fire.Master.Enemy;
             animator.SetTrigger("Attack");
-            animator.SetTrigger("Idle");
             CountCharges--;
             timeAttack = timeAttackKD;
         }
@@ -55,7 +54,6 @@ public class Enemy : MonoBehaviour
             player.GetComponent<HPScript>().TakeDamage(punchDamage);
             SoundController.instance.EnemyPunch();
             animator.SetTrigger("Attack");
-            animator.SetTrigger("Idle");
             CanPunch = false;
             StartCoroutine(EnableCollider());
         }

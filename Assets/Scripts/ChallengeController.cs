@@ -5,47 +5,87 @@ using UnityEngine;
 //контроль генерациии определённых объектов
 public class ChallengeController : MonoBehaviour
 {
-    [SerializeField] private GameData gameData;
-    [SerializeField] private Camera camera;
-    [SerializeField] private GameObject riverPoint;
-    [SerializeField] private Transform cameraTarget;
-    [SerializeField] private GameObject far_grounds;
-    [SerializeField] private GameObject phoenix;
-    [SerializeField] private GameObject[] tree;
-    [SerializeField] private GameObject[] enemies;
-    [SerializeField] private GameObject[] challenges;
-    [SerializeField] private Transform spawnPoint;
-    [SerializeField] private Transform spawnPointTree;
-    [SerializeField] private float timeSpawn = 3.0f;
-    [SerializeField] private float moveUp = 1.3f;
-    [SerializeField] private GameObject parentPlatforms;
-    [SerializeField] private GameObject parentEnemies;
-    [SerializeField] private GameObject parentGreenery;
-    [SerializeField] private CheckGround playerCheck;
-    private float newSpawnPoint;
-    private int random;
-    private int random_enemies;
-    private float currentTimeSpawn;
-    private float size;
-    public float difference;
-    public float difMultiple;
-    private int random_most;
-    private bool block = false;
-    private int rndTree = 0;
-    private int prevTree = 2;
-    [SerializeField] private float maxdist;
-    private new SpriteRenderer renderer;
-    private GameObject currentChild;
+    [SerializeField] 
+    GameData gameData;
+    
+    [SerializeField] 
+    Camera camera;
+    
+    [SerializeField]  
+    GameObject riverPoint;
+    
+    [SerializeField] 
+    Transform cameraTarget;
+    
+    [SerializeField]  
+    GameObject far_grounds;
+    
+    [SerializeField] 
+    GameObject phoenix;
+    
+    [SerializeField]  
+    GameObject[] tree;
+    
+    [SerializeField] 
+    GameObject[] enemies;
+    
+    [SerializeField]
+    GameObject[] challenges;
+    
+    [SerializeField] 
+    Transform spawnPoint;
+    
+    [SerializeField]  
+    Transform spawnPointTree;
+
+    [SerializeField] 
+    GameObject parentPlatforms;
+    
+    [SerializeField] 
+    GameObject parentEnemies;
+    
+    [SerializeField]
+    GameObject parentGreenery;
+    
+    [SerializeField] 
+    CheckGround playerCheck;
+    
+    [SerializeField] 
+    float timeSpawn = 3.0f;
+    
+    [SerializeField]  
+    float moveUp = 1.3f;
+    
+    [SerializeField]
+    float maxdist;
+    
+    SpriteRenderer renderer;
+    
+    GameObject currentChild;
+    
     public GameObject lastChild;
     //предыдущий рандом, чтобы знать что было перед этим
-    private int prev = 5;
-    private float waitSecond = 2f;
-    private float timePhx;
-    private float constTimePhx = 20f;
-    private float constTimeFG;
-    private float timeFG = 30;
+    int prev = 5;
+    float waitSecond = 2f;
+    float timePhx;
+    float constTimePhx = 20f;
+    float constTimeFG;
+    float timeFG = 30;
+    
+    float        newSpawnPoint;
+    int          random;
+    int          random_enemies;
+    float        currentTimeSpawn;
+    float        size;
+    public float difference;
+    public float difMultiple;
+    int          random_most;
+    bool         block    = false;
+    int          rndTree  = 0;
+    int          prevTree = 2;
+    
 
-    private void Start()
+    void Start()
     {
         Generate_Random_Challenge();
         currentTimeSpawn = timeSpawn;
@@ -55,7 +95,7 @@ public class ChallengeController : MonoBehaviour
         newSpawnPoint = maxdist;
     }
 
-    private void Update ()
+    void Update ()
     {
         if (!GameData.isGameOver)
         {
@@ -66,7 +106,7 @@ public class ChallengeController : MonoBehaviour
         }             
     }
 
-    private void Generate_Random_Challenge()
+    void Generate_Random_Challenge()
     {
         if (lastChild.transform.position.x <= newSpawnPoint + difference)
         {
@@ -143,7 +183,7 @@ public class ChallengeController : MonoBehaviour
         else return;
     }
 
-    private void Generate_Enemy()
+    void Generate_Enemy()
     {
         if (Random.Range(0, 3) == 0 && random != 1 && currentTimeSpawn <= 0)
         {
@@ -154,7 +194,7 @@ public class ChallengeController : MonoBehaviour
         }
     }
 
-    private void Generate_Phoenix()
+    void Generate_Phoenix()
     {
         if(timePhx <= 0 && Random.Range(0,10) == 0)
         {
@@ -164,7 +204,7 @@ public class ChallengeController : MonoBehaviour
     }
 
     //поднимает позицию спауна и позицию по игрику, относительно которой игрок умрёт по оси "Y"
-    private void Change_Spawn_Position()
+    void Change_Spawn_Position()
     {
         spawnPoint.position = new Vector2(spawnPoint.position.x, spawnPoint.position.y + moveUp);
         StartCoroutine(WaitAndMoveUp(waitSecond));
@@ -178,7 +218,7 @@ public class ChallengeController : MonoBehaviour
     }
 
     //Генерация деревьев
-    private void Generate_Tree()
+    void Generate_Tree()
     {
         if (Random.Range(0, 3) != 0)
         {
@@ -193,7 +233,7 @@ public class ChallengeController : MonoBehaviour
         }
     }
 
-    private void Generate_Backgroung()
+    void Generate_Backgroung()
     {
         if(timeFG<=0)
         {
@@ -203,7 +243,7 @@ public class ChallengeController : MonoBehaviour
         }
     }
 
-    private void Timer()
+    void Timer()
     {
         timeFG -= Time.deltaTime;
         timePhx -= Time.deltaTime;

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AVATA\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AVATA\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ToH.-1249208865.00" t="ExcludeRecursive" />
+    <e p="J:\UnityProjects\ToH" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AlphaThreshold.cs" t="Include" />
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="ChallengeController.cs" t="Include" />
+          <e p="CheckGround.cs" t="Include" />
+          <e p="DeathArea.cs" t="Include" />
+          <e p="EarnedPoints.cs" t="Include" />
+          <e p="Earth.cs" t="Include" />
+          <e p="Earth_Skill.cs" t="Include" />
+          <e p="EarthEnemy.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyHpUI.cs" t="Include" />
+          <e p="EnemyVisualHurt.cs" t="Include" />
+          <e p="Fire.cs" t="Include" />
+          <e p="Flickering.cs" t="Include" />
+          <e p="FlickFrame.cs" t="Include" />
+          <e p="GameData.cs" t="Include" />
+          <e p="GameOverFrame.cs" t="Include" />
+          <e p="HPScript.cs" t="Include" />
+          <e p="MenuController.cs" t="Include" />
+          <e p="OffsetBackground.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
+          <e p="Phoenix.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="PlayerSkills.cs" t="Include" />
+          <e p="ScrollObject.cs" t="Include" />
+          <e p="SoundController.cs" t="Include" />
+          <e p="SoundData.cs" t="Include" />
+          <e p="UIController.cs" t="Include" />
+          <e p="Vegetation.cs" t="Include" />
+          <e p="ViewArea.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="ToH.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

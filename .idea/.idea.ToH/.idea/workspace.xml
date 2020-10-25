@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83beeb0d-244d-4134-8c47-21390c20a675" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Earth_Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Earth_Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Fire_enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Fire_enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/GameOverFrame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/GameOverFrame.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/StartGameFrame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/StartGameFrame.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Campfire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Campfire/Campfire.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Campfire/Campfire.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Campfire/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Campfire/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/Earth_Enemy 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/Earth_Enemy 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/attack_earth.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/attack_earth.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/raise_Earth.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Earth_enemy/raise_Earth.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_element.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_element/Fire.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_element/Fire.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_element/Fire_Transform.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_element/Fire_Transform.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy/Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy/Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy/Fire_enemy.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy/Fire_enemy.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Fire_enemy/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix/Fly.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix/Fly.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix/Phoenix.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix/Phoenix.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix/Phoenix_Death.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Phoenix/Phoenix_Death.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_die.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_die.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_falljmp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_falljmp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_secondJmp.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Animation/Player/Player_secondJmp.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/CloudsBack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/CloudsBack.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/CloudsFront.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/CloudsFront.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/Tileset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/Tileset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/Trees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/Trees.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/White.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/White.JPG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/campfire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/campfire.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/clouds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/far-grounds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/far-grounds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/река.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/река.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/фон.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Background/фон.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies/Earth_Enemy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies/Earth_Enemy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies/Fire_Enemy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies/Fire_Enemy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies/Phoenix.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Enemies/Phoenix.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Idle.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Idle.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_Jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_Jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_Run.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_Run.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_die.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_die.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_fall_jmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_fall_jmp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_second jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Characters/Player/Player_second jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Earth.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Earth/objects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Earth/objects.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/0.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/1.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/2.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/3.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Elements/Fire/4.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/ToH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/ToH.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/Trail копия.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/Trail копия.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Exit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Menu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_MusicOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_MusicOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_MusicOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_MusicOn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Pause.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Play.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Reload.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_Settings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_SoundOff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_SoundOff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_SoundOn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/UI_Icon_SoundOn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/restart-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/restart-button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/Без имени-1 копия.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/Menu/Без имени-1 копия.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/HP_bar.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/HP_bar.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/frame_earth.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/frame_earth.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/frame_fire.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/frame_fire.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/frame_heal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/frame_heal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/spell_earth.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/spell_earth.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/spell_fire.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/spell_fire.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/spell_heal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/SpellIcons/spell_heal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Foldingpaper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Foldingpaper.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/FoldingpaperShadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/FoldingpaperShadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Lefrupside.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Lefrupside.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/RIghtdownside.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/RIghtdownside.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Rightupside.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Back/Rightupside.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Botton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Botton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Coin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Cristal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Cristal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Deck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Deck.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Deckbotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Deckbotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Decoration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Decoration.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/EXP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/EXP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Gamebotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Gamebotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Gamestart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Gamestart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Guild.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Guild.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Guildbotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Guildbotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HP_Fill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HP_Fill.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HeroAvatar 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HeroAvatar 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HeroAvatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HeroAvatar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HeroAvatar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/HeroAvatar1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Incircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Incircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Item.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Itembotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Itembotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/LV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/LV.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Mana_Fill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Mana_Fill.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Nickname.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Nickname.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Outcircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Outcircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/PlayerBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/PlayerBar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Preferences.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Preferences.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Profile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Quantity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Quantity.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Quest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Quest.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Questbotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Questbotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Rightup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Rightup.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Shopbotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Main/Shopbotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Account.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Contact.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Decive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Decive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Enter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Header.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Language.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Language.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Line1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Line1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Line2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Line2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Logout.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Namebotton01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Namebotton01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Namebotton02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Namebotton02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Resolution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Resolution.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Secession.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Secession.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Terms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Terms.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Username.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Set/Username.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Backbotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Backbotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Card.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cardline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cardline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cristalgreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cristalgreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cristalorange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cristalorange.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cristalred.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Cristalred.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Gamebotton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Gamebotton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Stage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Stage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Stageexplanation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/GUI/ZOSMA_UI/Stage/Stageexplanation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Platforms/Bridge.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Platforms/Bridge.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Platforms/Platforms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Artworks/Platforms/Platforms.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Clouds_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Clouds_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Clouds_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Clouds_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/River.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/River.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Sky_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Sky_1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Sky_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Materials/Sky_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Backgrounds/LevelSound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Backgrounds/LevelSound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Backgrounds/Menu Sound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Backgrounds/Menu Sound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/EarthExplosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/EarthExplosion.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/EarthSkillMove.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/EarthSkillMove.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/EarthUp.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/EarthUp.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/FireExplosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/FireExplosion.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/FireSpellEnemies.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/FireSpellEnemies.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/FireSpellPlayer.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/FireSpellPlayer.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Heal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Heal.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Hurt.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Hurt.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Jump.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Punch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Gameplay/Punch.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Mixer.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/Mixer.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/UISounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/UISounds/PlayBtnSound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/UISounds/PlayBtnSound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/UISounds/UIClick.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resouces/Sounds/UISounds/UIClick.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChallengeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChallengeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EarthEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EarthEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameOverFrame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameOverFrame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChallengeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EarthEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameOverFrame.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jNk4rWRy9cr5URVNpI8WxkRFzX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83beeb0d-244d-4134-8c47-21390c20a675" name="Default Changelist" comment="" />
+      <created>1603651754385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603651754385</updated>
+      <workItem from="1603651763619" duration="21000" />
+      <workItem from="1603651842334" duration="3206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603651969324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603651969324" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603653197522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603653197522" />
+  </component>
+</project>
